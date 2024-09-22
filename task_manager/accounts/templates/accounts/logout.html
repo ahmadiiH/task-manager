@@ -1,0 +1,10 @@
+{% extends 'tasks/base.html' %}
+{% block content %}
+
+<h2>you were logout</h2>
+<div class="pt-3 border-top">
+    <small class="text-muted">
+        <a href="{% url 'login' %}">Login Again</a>
+    </small>
+</div>
+{% endblock %}
